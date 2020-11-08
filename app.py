@@ -12,6 +12,8 @@ pairs=[(country,confirmed) for country,confirmed in zip(df.index,df['Confirmed']
     
 
 
+
+
 import folium
 import pandas as pd
 data= pd.read_csv("dataset_countrywise.csv")
